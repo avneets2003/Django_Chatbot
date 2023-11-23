@@ -9,7 +9,8 @@ def home(request):
 		question = request.POST['question']
 		past_responses = request.POST['past_responses']
 
-		co = cohere.Client('iqM4HhwTkXMPpx69FHopzPAYTk1l0mKEDQmvAOwe')
+		# Use your API key here
+		co = cohere.Client('YOUR_API_KEY')
 
 		try:
 			response = co.chat(message=question, model='command').text
