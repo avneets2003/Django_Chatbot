@@ -9,10 +9,6 @@ This is my attempt to build a chatbot using Django and an API key from Cohere (w
 ```sh
 git clone https://github.com/avneets2003/django-chatbot.git
 ```
-- Make sure you have Python installed on your computer.
-```sh
-python --version
-```
 - Set up a Python virtual environment.
 ```sh
 python -m venv virt
@@ -22,9 +18,9 @@ source virt/Scripts/activate
 ```sh
 pip install django cohere
 ```
-- Change directory to `Django_Chatbot`.
+- Change directory to `django-chatbot`.
 ```sh
-cd Django_Chatbot
+cd django-chatbot
 ```
 - Obtain an API from Cohere's website.
 - In `chat/views.py`, paste your API key.
