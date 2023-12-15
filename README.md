@@ -7,7 +7,7 @@ This is my attempt to build a chatbot using Django and an API key from Cohere (w
 
 - In your working directory, clone this repository.
 ```sh
-git clone https://github.com/avneets2003/Django_Chatbot.git
+git clone https://github.com/avneets2003/django-chatbot.git
 ```
 - Make sure you have Python installed on your computer.
 ```sh
